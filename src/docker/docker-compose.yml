@@ -74,7 +74,7 @@ services:
     networks:
       - app-net
 
-networks:	
-  app-net:	
-    external:	
+networks:
+  app-net:
+    external:
       name: nat
