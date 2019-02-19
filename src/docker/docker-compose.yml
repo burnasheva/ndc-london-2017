@@ -73,8 +73,9 @@ services:
       - message-queue
     networks:
       - app-net
-
-networks:
-  app-net:
-    external:
-      name: nat
+/**
+*networks:
+*  app-net:
+*    external:
+*      name: nat
+**/
